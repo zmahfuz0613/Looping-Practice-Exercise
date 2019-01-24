@@ -16,15 +16,43 @@ if(temp <= 32){
 }
 
 //Exercise 2
-//declare a variable called time and get the current date (you may need to research this on MDN or W3Schools)
-//write the current month to the console and note its return value.
-//How can we make it reflect the current months' number?
-//Set a new variable called currentMonth and set that equal to a ternary operator and determine if the time variable equals 1 return 'It is January' if true and 'It isn't January' if false.
-//How can we include an apostrophe in a string with single quotes? (you may need to research this)
-
 let time = new Date();
 console.log(time.getMonth() + 1);
 
 let currentMonth = (time === 1) ? 'It is January' : 'It isn\'t January';
 
 console.log(currentMonth)
+
+// Exercise 3
+
+let foodsArray = ['almonds', 'potato chips', 'ice cream', 'filet mignon'];
+for (let i=0; i<foodsArray.length; i++) {
+  switch(foodsArray[i]) {
+    case foodsArray[0]:
+    console.log('That\'s a healthy snack')
+    break;
+    case foodsArray[1]:
+    console.log('Something salty, nice!')
+    break;
+    case foodsArray[2]:
+    console.log('Something sweet, ok!')
+    break;
+    case foodsArray[3]:
+    console.log('Eating like royalty tonight.')
+    break;
+    default:
+    console.log('I dont know what to eat');
+  }
+}
+
+//Exercise 4
+
+let accountBalance = 0;
+let message = '';
+
+while (accountBalance <= 100) {
+  message += `My checking account balance is $ ${accountBalance} '\n'`;
+  accountBalance++;
+};
+
+console.log(str);
