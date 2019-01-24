@@ -14,7 +14,7 @@
 
 #### Exercise 2
 
-1. Declare a variable called `time` and get the current date (you may need to research the Date method on MDN or W3Schools).
+1. Declare a variable called `time` and get the current date (you may need to research the `Date` method on MDN or W3Schools).
 1. **Get** the current month written to the console and note its return value.
 1. How can we make it reflect the current months' number?
 1. Set a new variable called `currentMonth` and set it equal to a ternary operator that determines if  `time` equals 1. If true, have the statement return 'It is January' and 'It isn't January', if false.
@@ -45,7 +45,8 @@ print 'Something sweet, ok!'
 
 ### Bonus
 
-1. Given the following array, `let fishArray = ["Cod", "Tuna", "Salmon", "Swordfish"];`
+1. Given the following array,  
+ `let fishArray = ["Cod", "Tuna", "Salmon", "Swordfish"];`
   - loop through the array to find the longest word by how many letters each string contains.
   - What other variables will you need?
 1. Print the length of the longest word to the console.
