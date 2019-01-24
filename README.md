@@ -45,4 +45,8 @@ print 'Something sweet, ok!'
 
 ### Bonus
 
-1. Given the following array, ``
+1. Given the following array, `let fishArray = ["Cod", "Tuna", "Salmon", "Swordfish"];`
+  - loop through the array to find the longest word by how many letters each string contains.
+  - What other variables will you need?
+1. Print the length of the longest word to the console.
+1. Print the longest word to the console.
