@@ -1,6 +1,7 @@
 # Morning Exercise
 
 ### Complete your work in exercise.js
+### Remember to practice good git work flow by committing often.
 
 #### Exercise 1
 1. Declare a variable called `temp` and set it to 32.
