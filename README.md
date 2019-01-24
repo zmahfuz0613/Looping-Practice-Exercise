@@ -24,7 +24,7 @@
 1. How can we include an apostrophe in a string with single quotes? (you may need to research this).
 
 #### Exercise 3
-1. Given the following array, write a switch/case statement and determine an output based on each array item.
+1. Given the following array, write a switch/case statement and determine an output based on each array item.  
 `let foodsArray = ['almonds', 'potato chips', 'ice cream', 'filet mignon'];`
 1. Things to think about:
     - How can we determine the value of each item in the area?
