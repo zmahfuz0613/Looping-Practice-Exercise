@@ -14,7 +14,7 @@
 
 #### Exercise 2
 
-1. Declare a variable called time and get the current date (you may need to research this on MDN or W3Schools).
+1. Declare a variable called time and get the current date (you may need to research the Date method on MDN or W3Schools).
 1. Write the current month to the console and note its return value.
 1. How can we make it reflect the current months' number?
 1. Set a new variable called currentMonth and set that equal to a ternary operator and determine if the time variable equals 1 return 'It is January' if true and 'It isn't January' if false.
