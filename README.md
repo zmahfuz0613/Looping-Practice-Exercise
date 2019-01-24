@@ -54,3 +54,11 @@ print 'Something sweet, ok!'
     - What other variables will you need?
 1. Print the length of the longest word to the console.
 1. Print the longest word to the console.
+
+### Bonus 2
+1. Write a function `findDup` that takes an array of number as an argument.  `findDup` should return the first duplicate number in the array, e.g., [1, 4, 2, 5, 3, 5] should return `5`.
+
+### Bonus 3
+Write a function `sumPrimes` that takes a single argument `n` and returns the sum of the first `n` prime numbers.
+
+Since the first prime number is 2, if `sumPrimes` is called with 1 as its argument, then it should return 2 (the sum of the first prime is just 2).  If `sumPrimes` is called with 3 as its argument, then it should compute the sum of the first 3 prime numbers (2, 3, and 5) => 10.
