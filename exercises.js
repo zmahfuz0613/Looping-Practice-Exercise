@@ -1,3 +1,4 @@
+//Exercise 1
 let temp = 213;
 
 if(temp <= 32){
@@ -13,3 +14,17 @@ if(temp <= 32){
 } else {
   console.log("Global Warming!")
 }
+
+//Exercise 2
+//declare a variable called time and get the current date (you may need to research this on MDN or W3Schools)
+//write the current month to the console and note its return value.
+//How can we make it reflect the current months' number?
+//Set a new variable called currentMonth and set that equal to a ternary operator and determine if the time variable equals 1 return 'It is January' if true and 'It isn't January' if false.
+//How can we include an apostrophe in a string with single quotes? (you may need to research this)
+
+let time = new Date();
+console.log(time.getMonth() + 1);
+
+let currentMonth = (time === 1) ? 'It is January' : 'It isn\'t January';
+
+console.log(currentMonth)
