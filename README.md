@@ -36,18 +36,18 @@ print 'Something sweet, ok!'
 #### Exercise 4
 
 1. You just got paid! Write a while loop that will set an `accountBalance` variable up to and including 100.
-  - What should `accountBalance` be initialized to?
-  - Where in the scope of the while loop should this be initialized?
+    - What should `accountBalance` be initialized to?
+    - Where in the scope of the while loop should this be initialized?
 1. Print the balance to the console in a variable called `message` and start it with the string `'My checking account balance is $'`.
-  - What should `message` be initialized to?
-  - Where in the scope of the while loop should this be initialized?
+    - What should `message` be initialized to?
+    - Where in the scope of the while loop should this be initialized?
 1. How can we print a newline in JavaScript? (Ok, this one is for free, '\n').
 
 ### Bonus
 
 1. Given the following array,  
  `let fishArray = ["Cod", "Tuna", "Salmon", "Swordfish"];`
-  - loop through the array to find the longest word by how many letters each string contains.
-  - What other variables will you need?
+    - loop through the array to find the longest word by how many letters each string contains.
+    - What other variables will you need?
 1. Print the length of the longest word to the console.
 1. Print the longest word to the console.
