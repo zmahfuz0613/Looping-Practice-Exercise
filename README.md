@@ -28,7 +28,7 @@
 1. Given the following array, write a switch/case statement and determine an output based on each array item.  
 `let foodsArray = ['almonds', 'potato chips', 'ice cream', 'filet mignon'];`
 1. Things to think about:
-    - How can we determine the value of each item in the area?
+    - How can we determine the value of each item in the array?
     - How can we access a specific item in the array for each case?
 1. If the condition met is equal to almonds, print 'That's a healthy snack' to the console.
 1. If the condition met is equal to potato chips, print 'Something salty, nice!'
