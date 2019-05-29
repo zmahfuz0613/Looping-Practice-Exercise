@@ -1,5 +1,3 @@
-# Morning Exercise
-
 ### Fork and Clone this repo to your machine.
 ### Complete your work in exercise.js  
 ### Remember to practice good git work flow by committing often.  
