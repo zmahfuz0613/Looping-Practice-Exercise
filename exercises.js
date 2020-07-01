@@ -32,28 +32,28 @@ let isJuly = (month === 7) ? `It is July!` : `It isn\'t July`
 
 //Exercise 3
 
-// const foodsArray = ['almonds', 'potato chips', 'ice cream', 'filet mignon'];
+const foodsArray = ['almonds', 'potato chips', 'ice cream', 'filet mignon'];
 
-// for(let i = 0; i < foodsArray.length; i++) {
-//   console.log(foodsArray[i])
-// }
-// switch(foodsArray) {
-//   case 'almonds':
-//     console.log("That's a healthy snack");
-//     break;
-//   case 'potato chips':
-//     console.log("Something salty, nice!");
-//     break;
-//   case 'ice cream':
-//     console.log("Something sweet, ok!")
-//     break;
-//   case 'filet mignon':
-//     console.log("Eating like royalty tonight")
-//     break;
+for(let i = 0; i < foodsArray.length; i++) {
+  console.log(foodsArray[i])
+}
+switch(foodsArray) {
+  case 'almonds':
+    console.log("That's a healthy snack");
+    break;
+  case 'potato chips':
+    console.log("Something salty, nice!");
+    break;
+  case 'ice cream':
+    console.log("Something sweet, ok!")
+    break;
+  case 'filet mignon':
+    console.log("Eating like royalty tonight")
+    break;
   
-//   default:
-//     console.log("I don't know what to eat.");
-// }
+  default:
+    console.log("I don't know what to eat.");
+}
 
 //Exercise 4
 
