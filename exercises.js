@@ -57,5 +57,17 @@ switch(foodsArray) {
 
 //Exercise 4
 
+let accountBalance = 0
+
+while (accountBalance <= 100) {
+
+  let message = 'My checking account balance is $' + accountBalance
+
+  accountBalance++
+  
+  console.log(message) 
+
+}
+
 
 //Bonus
